@@ -1,0 +1,42 @@
+.container {
+    width: 95%;
+    height: 100vh;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 400px;
+    margin: auto;
+    background-color: olivedrab;
+}
+
+#userInput {
+    box-sizing: border-box;
+    width: 95%;
+    padding: 20px 10px 20px 10px;
+    margin: 5px;
+    font-size: xx-large;
+}
+
+.numberKeys, .operKeys {
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.n-key, .op-key{
+    width: 30%;
+    height: 45px;
+    margin-top: 3px;
+    font-size: x-large;
+}
+
+.op-key {
+    background-color: coral;
+    border: none;
+}
